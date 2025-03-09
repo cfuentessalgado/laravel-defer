@@ -1,0 +1,26 @@
+{
+    "name": "cfuentessalgado/laravel-defer",
+    "description": "Implementation of deferable callbacks for laravel 10 and below",
+    "type": "library",
+    "stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CFS\\LaravelDefer\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Cristian Fuentes Salgado",
+            "email": "cfuentess2010@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^10.0",
+        "illuminate/routing": "^10.0",
+        "laravel/pint": "^1.21"
+    }
+}
