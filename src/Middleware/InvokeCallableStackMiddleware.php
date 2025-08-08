@@ -15,6 +15,6 @@ class InvokeCallableStackMiddleware
 
     public function terminate(Request $request, Response $response)
     {
-        CallableStack::flush($response);
+        CallableStack::flush($request, $response);
     }
 }
